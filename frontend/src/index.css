@@ -1,0 +1,182 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-slate-950 text-slate-100;
+    font-family: "Segoe UI Variable Text", "Segoe UI Variable", "Segoe UI", -apple-system, BlinkMacSystemFont, "Plus Jakarta Sans", Inter, "Segoe UI Emoji", "Segoe UI Symbol", "Apple Color Emoji", "Noto Color Emoji", sans-serif;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+  }
+}
+
+/* ==========================================================================
+   LIQUID GLASS DESIGN SYSTEM (iOS 26 High Refraction Glass Material)
+   ========================================================================== */
+
+.liquid-glass {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.12) 0%, rgba(255, 255, 255, 0.03) 100%),
+              rgba(15, 23, 42, 0.65);
+  backdrop-filter: blur(24px) saturate(190%);
+  -webkit-backdrop-filter: blur(24px) saturate(190%);
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  box-shadow: inset 0 1px 1px 0 rgba(255, 255, 255, 0.25),
+              0 20px 45px -12px rgba(0, 0, 0, 0.5);
+  transition: all 0.35s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.liquid-glass:hover {
+  border-color: rgba(255, 255, 255, 0.25);
+  box-shadow: inset 0 1px 2px 0 rgba(255, 255, 255, 0.35),
+              0 25px 50px -10px rgba(0, 0, 0, 0.6);
+}
+
+.liquid-glass-card {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.08) 0%, rgba(255, 255, 255, 0.02) 100%),
+              rgba(30, 41, 59, 0.55);
+  backdrop-filter: blur(18px) saturate(180%);
+  -webkit-backdrop-filter: blur(18px) saturate(180%);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: inset 0 1px 1px 0 rgba(255, 255, 255, 0.15),
+              0 10px 25px -5px rgba(0, 0, 0, 0.35);
+  transition: all 0.3s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+/* Backwards compatible classes */
+.glass-panel {
+  composes: liquid-glass;
+}
+
+.glass-card {
+  composes: liquid-glass-card;
+}
+
+/* Glow highlights */
+.glow-blue {
+  box-shadow: 0 0 25px -5px rgba(14, 165, 233, 0.4);
+}
+
+.glow-gold {
+  box-shadow: 0 0 25px -5px rgba(245, 158, 11, 0.45);
+}
+
+.glow-pink {
+  box-shadow: 0 0 25px -5px rgba(244, 114, 182, 0.45);
+}
+
+/* ==========================================================================
+   STAGE-ADAPTIVE THEMES (Okul Öncesi, İlkokul, Lise/YKS)
+   ========================================================================== */
+
+/* 1. OKUL ÖNCESİ (Sıcak Güneşli Gökyüzü, Nane Yeşili & Bal Sarısı - Mor Değil!) */
+.theme-preschool {
+  background: radial-gradient(circle at 18% 18%, rgba(56, 189, 248, 0.28) 0%, transparent 48%),
+              radial-gradient(circle at 82% 15%, rgba(245, 158, 11, 0.26) 0%, transparent 45%),
+              radial-gradient(circle at 50% 85%, rgba(16, 185, 129, 0.25) 0%, transparent 50%),
+              radial-gradient(circle at 80% 75%, rgba(251, 146, 60, 0.22) 0%, transparent 45%),
+              #082032 !important;
+}
+
+.theme-preschool .glass-panel,
+.theme-preschool .liquid-glass {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.16) 0%, rgba(56, 189, 248, 0.08) 50%, rgba(245, 158, 11, 0.06) 100%),
+              rgba(10, 32, 50, 0.88) !important;
+  border: 3px solid rgba(56, 189, 248, 0.45) !important;
+  border-radius: 2rem !important;
+  box-shadow: inset 0 2px 2px 0 rgba(255, 255, 255, 0.4),
+              0 20px 45px -8px rgba(14, 165, 233, 0.25),
+              0 0 25px 2px rgba(245, 158, 11, 0.2) !important;
+}
+
+.theme-preschool .glass-card,
+.theme-preschool .liquid-glass-card {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.14) 0%, rgba(16, 185, 129, 0.08) 100%),
+              rgba(12, 40, 62, 0.82) !important;
+  border: 2px solid rgba(245, 158, 11, 0.45) !important;
+  border-radius: 1.5rem !important;
+  box-shadow: inset 0 1px 2px 0 rgba(255, 255, 255, 0.3),
+              0 10px 25px 0 rgba(245, 158, 11, 0.18) !important;
+}
+
+.theme-preschool button {
+  border-radius: 1.25rem;
+}
+
+/* 2. İLKOKUL (Renkli ama daha ferah, sade & düzenli ilkokul atölyesi) */
+.theme-primary {
+  background: radial-gradient(circle at 10% 20%, rgba(56, 189, 248, 0.22) 0%, transparent 45%),
+              radial-gradient(circle at 90% 30%, rgba(251, 191, 36, 0.18) 0%, transparent 45%),
+              radial-gradient(circle at 50% 90%, rgba(52, 211, 153, 0.20) 0%, transparent 45%),
+              #0c1527 !important;
+}
+
+.theme-primary .glass-panel,
+.theme-primary .liquid-glass {
+  background: linear-gradient(135deg, rgba(255, 255, 255, 0.12) 0%, rgba(56, 189, 248, 0.04) 100%),
+              rgba(15, 23, 42, 0.85) !important;
+  border: 2px solid rgba(56, 189, 248, 0.35) !important;
+  border-radius: 1.5rem !important;
+  box-shadow: inset 0 1px 1px 0 rgba(255, 255, 255, 0.25),
+              0 15px 35px -5px rgba(14, 165, 233, 0.18) !important;
+}
+
+.theme-primary .glass-card,
+.theme-primary .liquid-glass-card {
+  background: rgba(30, 41, 59, 0.75) !important;
+  border: 1.5px solid rgba(52, 211, 153, 0.3) !important;
+  border-radius: 1.25rem !important;
+}
+
+/* 3. LİSE & YKS (Derin odak obsidian liquid glass) */
+.theme-high {
+  background: radial-gradient(circle at 20% 20%, rgba(99, 102, 241, 0.18) 0%, transparent 45%),
+              radial-gradient(circle at 80% 80%, rgba(168, 85, 247, 0.15) 0%, transparent 45%),
+              #030712 !important;
+}
+
+/* ==========================================================================
+   ANIMATIONS
+   ========================================================================== */
+
+@keyframes pulse-slow {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.85; transform: scale(1.02); }
+}
+
+.animate-pulse-slow {
+  animation: pulse-slow 3s infinite ease-in-out;
+}
+
+@keyframes bounce-slow {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-8px); }
+}
+
+.animate-bounce-slow {
+  animation: bounce-slow 2.5s infinite ease-in-out;
+}
+
+@keyframes float-shape {
+  0%, 100% { transform: translateY(0px) rotate(0deg); }
+  50% { transform: translateY(-12px) rotate(8deg); }
+}
+
+.animate-float-shape {
+  animation: float-shape 4s infinite ease-in-out;
+}
+
+/* Custom scrollbars */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(15, 23, 42, 0.4);
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(148, 163, 184, 0.3);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(148, 163, 184, 0.5);
+}

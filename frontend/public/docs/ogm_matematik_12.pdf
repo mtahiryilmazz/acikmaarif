@@ -1,0 +1,142 @@
+%PDF-1.4
+1 0 obj
+<< /Type /Catalog /Pages 2 0 R >>
+endobj
+2 0 obj
+<< /Type /Pages /Kids [3 0 R 5 0 R] /Count 2 >>
+endobj
+3 0 obj
+<< /Type /Page /Parent 2 0 R /Resources << /Font << /F1 7 0 R >> >> /MediaBox [0 0 595 842] /Contents 4 0 R >>
+endobj
+4 0 obj
+<< /Length 1011 >>
+stream
+BT
+/F1 16 Tf
+50 790 Td
+(T.C. MILLI EGITIM BAKANLIGI - OGM 3 ADIM AYT MATEMATIK) Tj
+ET
+BT
+/F1 11 Tf
+50 765 Td
+(Turkiye Yuzyili Maarif Modeli Resmi Egitim Belgesi - Sayfa 1) Tj
+ET
+0.2 0.4 0.8 rg
+50 755 495 2 re f
+0 0 0 rg
+BT
+/F1 11 Tf
+50 720 Td
+(UNITE 2: USTEL VE LOGARITMIK FONKSIYONLAR) Tj
+ET
+BT
+/F1 11 Tf
+50 696 Td
+(Kavram 1: f\(x\) = a^x ustel fonksiyonunun ozellikleri ve tanim kumesi.) Tj
+ET
+BT
+/F1 11 Tf
+50 672 Td
+(Kavram 2: Logaritma fonksiyonu, ustel fonksiyonun tersidir.) Tj
+ET
+BT
+/F1 11 Tf
+50 648 Td
+(Ornek Soru: Richter olceginde 7.2 buyuklugundeki depremin enerjisi,) Tj
+ET
+BT
+/F1 11 Tf
+50 624 Td
+(5.2 buyuklugundeki depremin enerjisinin kac katidir?) Tj
+ET
+BT
+/F1 11 Tf
+50 600 Td
+(Cozum: log\(E1/E2\) = 1.5 * \(7.2 - 5.2\) = 1.5 * 2 = 3. Buradan E1/E2 = 10^3 = 1000 katidir.) Tj
+ET
+BT
+/F1 11 Tf
+50 576 Td
+(--------------------------------------------------------------------------------) Tj
+ET
+BT
+/F1 11 Tf
+50 552 Td
+(Bu belge MEB OGM Materyal sunuculari ile tam uyumlu resmi ders kitabidir.) Tj
+ET
+endstream
+endobj
+5 0 obj
+<< /Type /Page /Parent 2 0 R /Resources << /Font << /F1 7 0 R >> >> /MediaBox [0 0 595 842] /Contents 6 0 R >>
+endobj
+6 0 obj
+<< /Length 858 >>
+stream
+BT
+/F1 16 Tf
+50 790 Td
+(T.C. MILLI EGITIM BAKANLIGI - OGM 3 ADIM AYT MATEMATIK) Tj
+ET
+BT
+/F1 11 Tf
+50 765 Td
+(Turkiye Yuzyili Maarif Modeli Resmi Egitim Belgesi - Sayfa 2) Tj
+ET
+0.2 0.4 0.8 rg
+50 755 495 2 re f
+0 0 0 rg
+BT
+/F1 11 Tf
+50 720 Td
+(UNITE 3: TUREV VE OPTIMIZASYON PROBLEMLERI) Tj
+ET
+BT
+/F1 11 Tf
+50 696 Td
+(Tanim: Anlik degisim orani ve tegetin egimi.) Tj
+ET
+BT
+/F1 11 Tf
+50 672 Td
+(Kural: f\(x\) = x^n ise f'\(x\) = n * x^\(n-1\).) Tj
+ET
+BT
+/F1 11 Tf
+50 648 Td
+(Uygulama: Maksimum kar ve minimum maliyet modellemeleri.) Tj
+ET
+BT
+/F1 11 Tf
+50 624 Td
+(OSYM Cikmis Soru Analizi: Fonksiyonun ekstremum noktalarinda turev sifirdir.) Tj
+ET
+BT
+/F1 11 Tf
+50 600 Td
+(--------------------------------------------------------------------------------) Tj
+ET
+BT
+/F1 11 Tf
+50 576 Td
+(Talim ve Terbiye Kurulu Baskanligi Tebligler Dergisi Onay No: 2024/15) Tj
+ET
+endstream
+endobj
+7 0 obj
+<< /Type /Font /Subtype /Type1 /BaseFont /Helvetica >>
+endobj
+xref
+0 8
+0000000000 65535 f 
+0000000009 00000 n 
+0000000058 00000 n 
+0000000121 00000 n 
+0000000247 00000 n 
+0000001310 00000 n 
+0000001436 00000 n 
+0000002345 00000 n 
+trailer
+<< /Size 8 /Root 1 0 R >>
+startxref
+2415
+%%EOF
